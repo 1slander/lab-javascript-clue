@@ -140,10 +140,11 @@ function pickMystery() {
   }
   return mistery;
 }
+//const mistery = pickMystery();
 
 // ITERATION 3
 
-function revealMystery(object) {
+function revealMystery(envelope) {
   
-  return `${object.suspect.firstName} ${object.suspect.lastName} killed Mr. Boddy using the ${object.weapon.name} in the ${object.room.name}!`;
+  return `${envelope.suspect.firstName} ${envelope.suspect.lastName} killed Mr. Boddy using the ${envelope.weapon.name} in the ${envelope.room.name}!`;
 }  
